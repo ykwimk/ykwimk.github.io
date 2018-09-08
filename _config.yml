@@ -6,9 +6,9 @@ url:            "https://ykwimk.github.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Sung Jun, Lee
+  url:          https://ykwimk.github.io
+  email:        ykwimk@gmail.com
 
 # Build settings
 markdown:       kramdown
