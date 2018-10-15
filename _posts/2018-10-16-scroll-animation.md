@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "특정 Parameter 가져오기"
+title: "Scroll Animation"
 author: "Sung Jun"
 ---
 
