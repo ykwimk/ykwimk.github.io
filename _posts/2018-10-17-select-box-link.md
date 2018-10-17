@@ -9,12 +9,12 @@ Selectbox 링크 이동.
 
 ```html
 <div class="family_site">
-			<select name="family_site" onchange="javascript:go_url(this.options[this.selectedIndex].value);">
-				<option value="">FAMILY SITE</option>
-				<option value="http://ecoeye.com/">Ecoeye Korea</option>
-				<option value="http://carboni2.sendpage.co.kr/">Carbon-i</option>
-			</select>
-		</div>
+	<select name="family_site" onchange="javascript:go_url(this.options[this.selectedIndex].value);">
+		<option value="">FAMILY SITE</option>
+		<option value="http://ecoeye.com/">Ecoeye Korea</option>
+		<option value="http://carboni2.sendpage.co.kr/">Carbon-i</option>
+	</select>
+</div>
 ```
 
 
