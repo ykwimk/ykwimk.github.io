@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Viewport에 따른 웹페이지 축소"
+---
+
+뷰포트에 따른 웹페이지 축소.
+
+```
+<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=yes">
+<meta name="viewport" content="width=device-width, initial-scale=0.4"><script>
+
+
+<script>
+	if (jQuery(window).width() < 420) { jQuery('meta[name=viewport]').attr('content','initial-scale=0.54, maximum-scale=0.54, user-scalable=no'); }
+</script>
+```
