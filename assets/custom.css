@@ -1,5 +1,10 @@
 /* Custom Css */
-
+.post-full-content pre code {
+    padding: 0;
+    font-size: 1rem;
+    line-height: inherit;
+    background: transparent;
+}
 .post-full-content code {
     border: 0;
     padding: 2px 4px;
@@ -11,7 +16,6 @@
     line-height: 1.5em;
 	font-family: "Inconsolata";
 }
-
 .post-full-content pre {
     overflow-x: auto;
     margin: 1.5em 0 3em;
@@ -25,9 +29,3 @@
     border-radius: 5px;
 }
 
-.post-full-content pre code {
-    padding: 0;
-    font-size: 1rem;
-    line-height: inherit;
-    background: transparent;
-}
