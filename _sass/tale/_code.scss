@@ -1,13 +1,14 @@
 pre,
 code {
-  font-family: $monospaced;
+  /*font-family: $monospaced;*/
+  font-family: "Inconsolata";
 }
 
 code {
   background-color: $grey-3;
   border-radius: 3px;
   color: $code-color;
-  font-size: 85%;
+  font-size: 62.5%;
   padding: .25em .5em;
 }
 
@@ -18,7 +19,7 @@ pre {
 pre code {
   background-color: transparent;
   color: inherit;
-  font-size: 100%;
+  font-size: 62.5%;
   padding: 0;
 }
 
@@ -30,10 +31,9 @@ pre code {
     border: 1px solid #000;
     color: #e5eff5;
     font-size: 1.5rem;
-    line-height: 1.5em;
     background: #0e0f11;
     border-radius: 5px;
-	}
+}
 
 /*.highlight {
   background-color: $grey-3;
