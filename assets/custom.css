@@ -1,0 +1,10 @@
+/* Custom CSS */
+.post-full-content .highlight {
+	background:#000000;
+	border-radius:5px;
+	}
+.post-full-content code,
+	.post-full-content pre {
+		font-family:"Inconsolata", monospace;
+	}
+

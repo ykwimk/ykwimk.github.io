@@ -13,21 +13,26 @@
     {% endif %}
   </title>
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/rouge.css" | relative_url }}" />
 
   <!-- syntax.css -->
   <link rel="stylesheet" href="/assets/syntax.css">
-
-  <link href="path-to-syntax-highlighter-stylesheet" rel="stylesheet">
+ 
+  <!-- 웹 폰트 -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+  <!-- JS -->
+  <script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
+
 
   <!-- RSS -->
   {% feed_meta %}
