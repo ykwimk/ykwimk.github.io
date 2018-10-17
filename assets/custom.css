@@ -27,7 +27,7 @@
 
 .post-full-content pre code {
     padding: 0;
-    font-size: inherit;
+    font-size: 1rem;
     line-height: inherit;
     background: transparent;
 }
