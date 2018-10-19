@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bxslider 썸네일 슬라이드"
+title: "BXSlider 썸네일 슬라이드"
 ---
 
 BXSlider 썸네일

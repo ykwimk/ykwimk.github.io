@@ -1,4 +1,13 @@
 /* Custom CSS */
+
+/* Sub Top */
+.sub_top {
+	width:100%; height:500px;
+	background:url('/assets/img/subTop_20181019.jpg') no-repeat center;
+	background-size:cover;
+	}
+
+/* post */
 .post-full-content .highlight {
 	background:#000000;
 	border-radius:5px;
