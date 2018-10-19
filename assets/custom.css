@@ -10,7 +10,7 @@
 /* Sub Top */
 .sub_top {
 	width:100%; height:220px;
-	background:url('/assets/img/subTop.jpg') no-repeat center top;
+	background:url('/assets/img/subTop.jpg') no-repeat center 27%;
 	background-size:cover;
 	}
 
