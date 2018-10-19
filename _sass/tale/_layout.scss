@@ -15,7 +15,7 @@ footer,
 
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
-  overflow: auto; background:$default-color;
+  overflow: auto; background:#20203d;
 
   &-container {
     margin: 1rem auto;
@@ -29,10 +29,12 @@ footer,
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
+    font-family:"Press Start 2P";
+    font-size:2rem;
 
     &:hover,
     &:focus {
-      opacity: .6;
+      opacity: 1;
     }
   }
 
