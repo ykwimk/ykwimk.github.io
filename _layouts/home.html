@@ -9,11 +9,12 @@ layout: default
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
-
-        <!--<p>
-          {{ post.content | strip_html | truncatewords: 30 }}
-        </p>-->
-
+        <p>
+          {{ post.content | strip_html | truncatewords: 15 }}
+        </p>
+		<span class="link_arr">
+			<img src="/assets/img/main_arr.png" alt="링크로 이동" />
+		</span>
       </div>
     </a>
   {% endfor %}

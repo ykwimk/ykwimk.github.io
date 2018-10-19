@@ -7,10 +7,10 @@
     <nav class="nav">
       <div class="nav-container">
         <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
+          <h2 class="nav-title">SUNGJUN</h2>
         </a>
         <ul>
-          <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+          <li><a class="about_btn" href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
           <li><a href="{{ site.baseurl }}/">Posts</a></li>
         </ul>
       </div>
@@ -26,9 +26,6 @@
     </main>
 
     <footer>
-	   <!-- <a class="top">
-	   		 <img src="/assets/img/top_btn.png" width="100%" alt="상단으로" />
-	   </a> -->
       <span>
         &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
       </span>
