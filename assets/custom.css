@@ -6,7 +6,7 @@
 .link_arr {
 	display:inline-block; position:absolute;
 	right:0; top:50%; transform:translateY(-50%);
-	border:2px solid #000000;
+	border:2px solid #000000; line-height:100%;
 	}
 .about_btn {
 	display:inline-block; width:32px;
@@ -16,7 +16,7 @@
 
 /* Main */
 .catalogue p {
-	font-size:0.8rem;
+	font-size:0.8rem; width:80%;
 	}
 
 
@@ -42,3 +42,9 @@
 	text-align:center;
 	}
 
+@media (min-width: 600px) {
+	.sub_top {height:150px;}
+	.link_arr {
+		width:26px; height:26px;
+		}
+}
