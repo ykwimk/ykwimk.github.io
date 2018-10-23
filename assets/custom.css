@@ -9,8 +9,8 @@
 	border:2px solid #000000; line-height:100%;
 	}
 .about_btn {
-	display:inline-block; width:32px;
-	height:32px; background:url("/assets/img/about_ico.png") no-repeat center;
+	display:inline-block; width:30px;
+	height:30px; background:url("/assets/img/about_ico.png") no-repeat center;
 	background-size:100%; text-indent:-9999px;
 	}
 
@@ -42,7 +42,7 @@
 	text-align:center;
 	}
 
-@media (min-width: 600px) {
+@media (max-width: 767px) {
 	.sub_top {height:150px;}
 	.link_arr {
 		width:26px; height:26px;
