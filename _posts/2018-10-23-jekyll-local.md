@@ -4,6 +4,15 @@ title: "로컬에서 Jekyll 블로그 작업하기"
 author: "Sung Jun"
 ---
 
+####Windows에서 Jekyll로 블로그 생성
+http://hurderella.tistory.com/131
+
+
+
+
+
+####jekyll 블로그 작업 중요 부분
+
 Jekyll 블로그에 올릴 포스트를 GitHub repository로 push하지 않고, 로컬에서 preview하며 작업할 수 있습니다. Jekyll 공식 페이지의 Basic Usage에 있는 내용 중에서 가장 필요한 부분만 여기서 정리해 보겠습니다.
 
 먼저 jekyll serve 명령은 개발을 위한 웹 서버를 로컬에서 실행합니다. 기본으로 auto-regeneration 기능이 활성화 되어 있어, jekyll serve 실행 중에 data 파일(예를 들면 .md 또는 .html)에 변동이 있으면 실시간으로 _site 디렉토리의 파일들을 다시 생성합니다. 그 결과 http://localhost:4000/로 접속한 웹 브라우저에서 방금 수정한 내용을 바로 확인할 수 있습니다.
