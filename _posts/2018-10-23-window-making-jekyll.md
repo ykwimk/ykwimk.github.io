@@ -4,9 +4,9 @@ title: "Windows에서 Jekyll 블로그 생성하고 로컬에서 열기."
 author: "Sung Jun"
 ---
 
-### Windows에서 Jekyll 블로그 생성하고 로컬에서 열기.
+## Windows에서 Jekyll 블로그 생성하고 로컬에서 열기.
+(windows 10 x64 기준)
 
-*(windows 10 x64 기준)*
 
 
 1. [Ruby 사이트](http://rubyinstaller.org/downloads/)에서 루비 설치.
@@ -38,3 +38,6 @@ _ _ _
 ```
 $ bundle install
 ```
+
+
+출처: http://hurderella.tistory.com/131
