@@ -3,11 +3,14 @@
 
 /* common */
 .top_btn {}
-.link_arr {
+.catalogue-item .link_arr {
 	display:inline-block; position:absolute;
 	width:30px; height:30px;
-	right:0; top:50%; transform:translateY(-50%);
+	right:0; top:50%; transform:translateY(-50%) translateZ(0);
 	border:2px solid #000000; line-height:100%;
+	}
+.catalogue-item .link_arr {
+	
 	}
 .about_btn {
 	display:inline-block; width:32px;
