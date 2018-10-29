@@ -125,7 +125,7 @@
 		width:100%; box-sizing:border-box;
 		padding:0 5%;
 		}
-	.sub_top {height:150px;}
+	.sub_top {height:150px; background-attachment:scroll;}
 	.catalogue-item .link_arr {display:none;}
 	.catalogue p {width:100%;}
 	
