@@ -11,19 +11,43 @@
         </a>
         <ul>
           <li><a class="about_btn" href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+		  <li><a class="search_btn">Search</a></li>
           <li><a class="list_btn" href="{{ site.baseurl }}/">Posts</a></li>
         </ul>
       </div>
     </nav>
 	
+	
+
 	<div class="sub_top">
-		
+		<!-- Search Area -->
+		<div class="search_bg"></div>
+		<div class="search_wrap">
+			<div id="search-container">
+				<input type="text" id="search-input" placeholder="Search">
+				<ul id="results-container"></ul>
+			</div>
+		</div>
+		<!-- //Search Area -->
 	</div>
 
 
     <main>
       {{ content }}
     </main>
+	
+	<script type="text/javascript">
+	  SimpleJekyllSearch({
+		  searchInput: document.getElementById('search-input'),
+		  resultsContainer: document.getElementById('results-container'),
+		  json: '{{ site.baseurl }}/search2.json',
+		  searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+		  noResultsText: 'No results found',
+		  limit: 10,
+		  fuzzy: false,
+		  exclude: ['Welcome']
+	  });
+  </script>
 
     <footer>
       <span>
