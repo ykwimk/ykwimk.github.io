@@ -15,4 +15,10 @@ $(document).ready(function(){
 			btnChk = 0;
 		}
 	});
+
+
+	var inter = setInterval(function(){
+		$(".search_btn").toggleClass("tada");
+	}, 1250);
+
 });
