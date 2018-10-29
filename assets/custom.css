@@ -14,6 +14,7 @@
 .nav ul li a {
 	display:inline-block; width:32px;
 	height:32px; background-size:100%; text-indent:-9999px;
+	overflow:hidden;
 	}
 .about_btn {background:url("/assets/img/about_ico.png") no-repeat center; background-size:100%;}
 .list_btn {background:url("/assets/img/list_btn.png") no-repeat center; background-size:100%;}
