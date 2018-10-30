@@ -6,13 +6,14 @@
   <body>
     <nav class="nav">
       <div class="nav-container">
-        <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">SUNGJUN</h2>
-        </a>
         <ul>
-          <li><a class="about_btn" href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-		  <li><a class="search_btn">Search</a></li>
-          <li><a class="list_btn" href="{{ site.baseurl }}/">Posts</a></li>
+		  <li><a class="list_btn" href="{{ site.baseurl }}/"><img src="/assets/img/post_ico.png" alt="Post" /></a></li>
+		  <li>
+			  <a href="{{ site.baseurl }}/">
+				 <h2 class="nav-title">SUNGJUN</h2>
+			  </a>
+		  </li>
+          <li><a class="about_btn" href="{{ '/about' | prepend: site.baseurl }}"><img src="/assets/img/about_ico.png" alt="About" /></a></li>
         </ul>
       </div>
     </nav>
@@ -53,7 +54,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}.
       </span>
     </footer>
   </body>

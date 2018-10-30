@@ -10,13 +10,14 @@ layout: default
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
         <p>
-          {{ post.content | strip_html | truncatewords: 12 }}
+          {{ post.content | strip_html | truncatewords: 10 }}
         </p>
 		<span class="link_arr">&#8594;</span>
       </div>
     </a>
   {% endfor %}
 </div>
+
 
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -26,5 +27,8 @@ layout: default
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
 
-  <span>{{ paginator.page }}</span>
+  <div>
+	<span class="current">{{ paginator.page }}</span> / <span class="total">{{ paginator.total_pages }}</span>
+  </div>
+
 </div>

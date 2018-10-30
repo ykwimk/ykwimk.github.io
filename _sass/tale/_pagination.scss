@@ -1,13 +1,21 @@
 .pagination {
   border-top: .5px solid $grey-2;
-  font-family: $serif-secondary;
+  font-family: $serif-primary;
+  font-weight:600;
   padding-top: 2rem;
   position: relative;
   text-align: center;
 
   span {
-    color: $default-shade;
     font-size: 1.1rem;
+  }
+
+  .current {
+    color: #333333;
+  }
+
+  .total {
+    color: #000000;
   }
 
   .top {
